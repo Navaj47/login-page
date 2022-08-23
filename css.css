@@ -1,0 +1,103 @@
+body {
+  background-image: url("img2.jpg");
+  background-size: cover;
+}
+
+a {
+  font-size: 37px;
+  position: absolute;
+  right: 1px;
+  top: 9px;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 17px;
+  border: 2px solid #ffffff00;
+  padding: 4px;
+  margin: 4px;
+  box-shadow: 0px 0px 9px red, 0px 0px 9px red, 0px 0px 9px red, 0px 0px 9px red;
+  text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white,
+    0px 0px 3px white, 0px 0px 3px white;
+}
+
+a:hover {
+  color: red;
+  box-shadow: 0px 0px 9px white, 0px 0px 9px white, 0px 0px 9px white,
+    0px 0px 9px white;
+  text-shadow: 0px 0px 3px red, 0px 0px 3px red, 0px 0px 3px red,
+    0px 0px 3px red, 0px 0px 3px red;
+  transition-duration: 4s;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 77;
+  text-align: center;
+  color: #fff705;
+  font-family: "Irish Grover", cursive;
+  letter-spacing: 9px;
+  text-shadow: 0 0 9px #fff705, 0 0 9px #fff705, 0 0 9px #fff705;
+  transition-duration: 4s;
+}
+
+h1:hover {
+  color: #fcfcfc;
+  text-shadow: 0 0 9px #fff705, 0 0 9px #fff705, 0 0 9px #fff705;
+  cursor: context-menu;
+}
+
+.myDiv {
+  color: white;
+  text-align: center;
+}
+input {
+  height: 37px;
+  width: 322px;
+  margin: 16px;
+  padding: 10px;
+  color: #fbfbfb;
+  background-color: transparent;
+  border: 2px solid yellowgreen;
+  font-size: 21px;
+  border-radius: 20px;
+  font-family: "Irish Grover", cursive;
+  box-shadow: 0 0 21px #f70000, 0 0 21px #f70000, 0 0 21px #f70000,
+    0 0 21px #f70000;
+  transition-duration: 5s;
+}
+
+input:hover {
+  box-shadow: 0 0 21px #ffffff, 0 0 21px #ffffff, 0 0 21px #ffffff,
+    0 0 21px #ffffff;
+  text-shadow: -2px 3px 2px #998f3c;
+  cursor: pointer;
+}
+
+::placeholder {
+  /* color: red; */
+  color: #fbff02;
+}
+
+#btn {
+  color: red;
+  background-color: transparent;
+  font-size: 29px;
+  border: 2px solid yellowgreen;
+  border-radius: 12px;
+  font-family: "Irish Grover", cursive;
+  margin-top: 14px;
+  padding: 0px;
+  box-shadow: 0px 1px 21px #f70000;
+  width: 160px;
+}
+
+#btn:hover {
+  box-shadow: 0px 1px 21px #ffffff;
+  cursor: pointer;
+}
+
+.error {
+  color: #ff4700;
+  position: absolute;
+  left: 710;
+  bottom: 253;
+}
